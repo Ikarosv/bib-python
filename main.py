@@ -31,11 +31,12 @@ def menu():
         print('1 - Registrar um livro')
         print('2 - Excluir um livro')
         print('3 - Listar livros disponíveis')
-        print('4 - Listar por categoria')
-        print('5 - Alugar livro')
-        print('6 - Renovar prazo')
-        print('7 - Devolver livro')
-        print('8 - Sair')
+        print('4 - Listar livros alugados por mim')
+        print('5 - Listar por categoria')
+        print('6 - Alugar livro')
+        print('7 - Renovar prazo')
+        print('8 - Devolver livro')
+        print('9 - Sair')
         escolha =  input('Escolha uma opção: ')
         match escolha:
             case '1':
@@ -45,14 +46,16 @@ def menu():
             case '3':
                 return 'listar_disponiveis'
             case '4':
-                return 'listar_por_categoria'
+                return 'listar_alugados_por_usuario'
             case '5':
-                return 'alugar'
+                return 'listar_por_categoria'
             case '6':
-                return 'renovar'
+                return 'alugar'
             case '7':
-                return 'devolver'
+                return 'renovar'
             case '8':
+                return 'devolver'
+            case '9':
                 return 'sair'
             case _:
                 raise ValueError('Opção inválida!')
