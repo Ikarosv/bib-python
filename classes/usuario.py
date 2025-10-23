@@ -9,13 +9,13 @@ class Usuario():
     id: str
     nome: str
     senha: str
-    cargo: Cargos
+    cargo: str
     livrosAlugados: list[str]
     def __init__(self):
         self.id = ''
         self.nome = ''
         self.senha = ''
-        self.cargo = Cargos.ADMIN
+        self.cargo = Cargos.CLIENTE
     
     def autenticar(self, nome: str, senha: str) -> bool:
         user = self.getUser(nome)
@@ -28,7 +28,7 @@ class Usuario():
                 return True
         return False
     
-    def cadastrar(self, nome: str, senha: str, cargo: Cargos):
+    def cadastrar(self, nome: str, senha: str, cargo: str):
         self.nome = nome
         self.senha = senha
         self.cargo = cargo

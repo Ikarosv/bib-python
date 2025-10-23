@@ -101,6 +101,7 @@ while True:
                 pass
             case 'alugar':
                 Livro.alugar(usuarioLogin)
+                # usuarioLogin.addLivro('The Wicther - Tempo de Desprezo')
                 pass
             case 'listar_disponiveis':
                 Livro.listar_disponiveis()
