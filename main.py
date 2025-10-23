@@ -31,10 +31,11 @@ def menu():
         print('1 - Registrar um livro')
         print('2 - Excluir um livro')
         print('3 - Listar livros disponíveis')
-        print('4 - Alugar livro')
-        print('5 - Renovar prazo')
-        print('6 - Devolver livro')
-        print('7 - Sair')
+        print('4 - Listar por categoria')
+        print('5 - Alugar livro')
+        print('6 - Renovar prazo')
+        print('7 - Devolver livro')
+        print('8 - Sair')
         escolha =  input('Escolha uma opção: ')
         match escolha:
             case '1':
@@ -44,35 +45,40 @@ def menu():
             case '3':
                 return 'listar_disponiveis'
             case '4':
+                return 'listar_por_categoria'
+            case '5':
+                return 'alugar'
+            case '6':
+                return 'renovar'
+            case '7':
+                return 'devolver'
+            case '8':
+                return 'sair'
+            case _:
+                raise ValueError('Opção inválida!')
+    elif usuarioLogin.cargo == Cargos.CLIENTE:
+        print('1 - Listar livros disponíveis')
+        print('2 - Listar livros alugados por mim')
+        print('3 - Listar por categoria')
+        print('4 - Alugar livro')
+        print('5 - Renovar prazo')
+        print('6 - Devolver livro')
+        print('7 - Sair')
+        escolha =  input('Escolha uma opção: ')
+        match escolha:
+            case '1':
+                return 'listar_disponiveis'
+            case '2':
+                return 'listar_alugados_por_usuario'
+            case '3':
+                return 'listar_por_categoria'
+            case '4':
                 return 'alugar'
             case '5':
                 return 'renovar'
             case '6':
                 return 'devolver'
             case '7':
-                return 'sair'
-            case _:
-                raise ValueError('Opção inválida!')
-    elif usuarioLogin.cargo == Cargos.CLIENTE:
-        print('1 - Listar livros disponíveis')
-        print('2 - Alugar livro')
-        print('3 - Listar livros alugados por mim')
-        print('4 - Renovar prazo')
-        print('5 - Devolver livro')
-        print('6 - Sair')
-        escolha =  input('Escolha uma opção: ')
-        match escolha:
-            case '1':
-                return 'listar_disponiveis'
-            case '2':
-                return 'alugar'
-            case '3':
-                return 'listar_alugados_por_usuario'
-            case '4':
-                return 'renovar'
-            case '5':
-                return 'devolver'
-            case '6':
                 return 'sair'
             case _:
                 raise ValueError('Opção inválida!')
@@ -102,6 +108,9 @@ while True:
                 pass
             case 'listar_alugados_por_usuario':
                 Livro.listar_alugados_por_usuario(usuarioLogin)
+                pass
+            case 'listar_por_categoria':
+                Livro.listar_por_categoria()
                 pass
             case 'renovar':
                 Livro.renovar(usuarioLogin)

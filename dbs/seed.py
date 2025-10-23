@@ -69,7 +69,8 @@ if not arquivo_estoque.exists():
     {'nome': "Estrangeiro", 'status': Status.DISPONIVEL.name.lower()}]
     for item in estoque_seed:
         item['id'] = str(uuid.uuid4())
-        item['categoria'] = None
+        if 'categoria' not in item:
+            item['categoria'] = ''
         item['alugadoPor'] = None
         item['alugadoDia'] = None
         item['devolverDia'] = None

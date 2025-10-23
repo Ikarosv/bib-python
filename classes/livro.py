@@ -120,4 +120,26 @@ class Livro():
                 f.close()
         else:
             print(f'Livro {nome_livro} não encontrado!')
-        
+    
+    def categorias_disponiveis():
+        categorias = set(l['categoria'] for l in estoque if l['status'] == Status.DISPONIVEL.name.lower() and l['categoria'])
+        return categorias
+    
+    def listar_por_categoria():
+        categorias = Livro.categorias_disponiveis()
+        if not categorias:
+            print('Nenhuma categoria disponível.')
+            return
+        print('Categorias disponíveis:')
+        for categoria in categorias:
+            print(f'- {categoria}')
+        print('-' * 30)
+        categoria = input('Digite a categoria que deseja listar: ')
+        livros_categoria = list(filter(lambda l: l['categoria'].lower() == categoria.lower(), estoque))
+        if livros_categoria:
+            print(f'Livros na categoria {categoria}:')
+            for livro in livros_categoria:
+                status = 'Disponível' if livro['status'] == Status.DISPONIVEL.name.lower() else 'Alugado'
+                print(f'- {livro["nome"]} (Status: {status})')
+        else:
+            print(f'Nenhum livro encontrado na categoria {categoria}.')
