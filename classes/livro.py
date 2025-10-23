@@ -103,7 +103,7 @@ class Livro():
             print(f'Nenhum livro alugado por {usuario.nome}.')
     
     def atualizar_status(status: Status, usuario: str | None, nome_livro: str):
-        livro = next(filter(lambda l: l['nome'] == nome_livro, estoque), None)
+        livro = next(filter(lambda l: l['nome'].lower() == nome_livro.lower(), estoque), None)
         if livro:
             livro['status'] = status.name.lower()
             if status == Status.ALUGADO:

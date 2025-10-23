@@ -88,6 +88,7 @@ while True:
             case 'login':
                 login = Login()
                 usuarioLogin = login.usuario
+                pass
             case 'cadastro':
                 cadastro = Cadastro()
                 usuarioLogin = cadastro.usuario
