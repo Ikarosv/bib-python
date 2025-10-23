@@ -5,11 +5,6 @@ from autenticacao.login import Login
 from autenticacao.cadastro import Cadastro
 
 usuarioLogin = Usuario()
-usuarioLogin.id = "eb18d659-9b01-49a2-b2e6-e2227e50f2b6"
-usuarioLogin.nome = "Gabriel"
-usuarioLogin.senha = "admin123"
-usuarioLogin.cargo = Cargos.CLIENTE
-usuarioLogin.livrosAlugados = []
 
 def menu():
     if not usuarioLogin.nome:
