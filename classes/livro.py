@@ -82,7 +82,7 @@ class Livro():
 
     
     def listar_disponiveis():
-        livros_disponiveis = list(filter(lambda l: l['status'] == Status.DISPONIVEL.name.lower(), estoque))
+        livros_disponiveis = list(filter(lambda l: l['status'].lower() == Status.DISPONIVEL.name.lower(), estoque))
         if livros_disponiveis:
             print('-' * 30)
             print('Livros disponíveis para aluguel:')
@@ -139,7 +139,7 @@ class Livro():
         if livros_categoria:
             print(f'Livros na categoria {categoria}:')
             for livro in livros_categoria:
-                status = 'Disponível' if livro['status'] == Status.DISPONIVEL.name.lower() else 'Alugado'
+                status = 'Disponível' if livro['status'].lower() == Status.DISPONIVEL.name.lower() else 'Alugado'
                 print(f'- {livro["nome"]} (Status: {status})')
         else:
             print(f'Nenhum livro encontrado na categoria {categoria}.')
