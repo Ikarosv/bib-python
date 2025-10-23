@@ -1,0 +1,515 @@
+[
+  {
+    "nome": "The Wicther - O último Desejo",
+    "status": "alugado",
+    "id": "1595bb5f-182b-4011-8c67-37c9bc78ea1c",
+    "categoria": null,
+    "alugadoPor": "eb18d659-9b01-49a2-b2e6-e2227e50f2b6",
+    "alugadoDia": "2025-10-22T21:59:15.311174",
+    "devolverDia": "2025-10-29T21:59:15.311174"
+  },
+  {
+    "nome": "The Witcher - A Espada do Destino",
+    "status": "disponivel",
+    "id": "969ae7ea-e1da-419c-9fe1-78a0456f57f9",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Witcher - O Sangue dos Elfos",
+    "status": "disponivel",
+    "id": "a703306b-666e-4486-9dee-053b1dce49fa",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Wicther - Tempo de Desprezo",
+    "status": "disponivel",
+    "id": "c73e9b3c-f05b-41a2-aa18-e19c3ca22507",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Witcher - Batismo de Fogo",
+    "status": "disponivel",
+    "id": "2500b809-81d8-47e2-9ce5-20898a41f8fa",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Witcher - A Torre da Andorinha",
+    "status": "disponivel",
+    "id": "42d73b51-b1a3-4f60-b93c-d47349e74286",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Wicther - A Senhora do Lago",
+    "status": "disponivel",
+    "id": "63c4390b-c69a-4da0-ac6d-01f88851fc6b",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "The Witcher - Tempo de Tempestade",
+    "status": "disponivel",
+    "id": "31f5f041-e2a6-43ff-bdbc-a887cf887f11",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Introduction to Algorithms",
+    "status": "disponivel",
+    "id": "0f02950d-2158-4f46-ae4f-fd7b9d28d8bf",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Cyberpunk 2077 - Nenhum Acaso",
+    "status": "disponivel",
+    "id": "84d1152d-e097-424c-8fc5-c455c65d254b",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Memórias Póstumas de Brás Cubas",
+    "status": "disponivel",
+    "id": "0d20b72c-7237-4442-ac07-4bf1891f0934",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Vidas Secas",
+    "status": "disponivel",
+    "id": "4be31faf-2624-4b37-930b-7f992975d8d6",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Don Quixote",
+    "status": "disponivel",
+    "id": "8062dbd6-fbdf-48f6-8f4f-020ce6d366dd",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "A Revolução dos Bichos",
+    "status": "disponivel",
+    "id": "835f20c3-8109-4ba6-8bc8-f5da272ab3cc",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Sapiens - Uma Breve História da Humanidade",
+    "status": "disponivel",
+    "id": "27836cd4-9917-489d-91ea-9029b1e1098b",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Duna",
+    "status": "disponivel",
+    "id": "5984f664-edfc-4a91-b9fe-76664c50d748",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Hobbit",
+    "status": "disponivel",
+    "id": "fed46732-eaed-41fa-aac9-c168a6504157",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "As Crônicas de Nárnia",
+    "status": "disponivel",
+    "id": "9040e6c5-88e3-4804-9097-af5876dd4d88",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Senhor dos Anéis",
+    "status": "disponivel",
+    "id": "d356a0ec-2dc8-4781-aba4-bda64ce51ddf",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Neuromancer",
+    "status": "disponivel",
+    "id": "388159cd-628c-4dbd-955f-a0ce927f38c2",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Silmarillion",
+    "status": "Disponivel",
+    "id": "02173fec-580d-44fe-ba97-709e6842b3b5",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Contos Inacabados e Os Filhos de Húrin",
+    "status": "disponivel",
+    "id": "dc8968d8-2c1c-410b-8455-5f33206c914b",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Coraline",
+    "status": "disponivel",
+    "id": "2fa945b6-0c2d-4dd8-9dc0-d5e78d5f3744",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Oceano no Fim do Caminho",
+    "status": "disponivel",
+    "id": "2a0c4169-987d-4312-80fe-880066dd02f9",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Stardust",
+    "status": "disponivel",
+    "id": "fbb133c5-0b46-46ae-a764-7f9974fd297e",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Elementos da Matemática - Rufino",
+    "status": "disponivel",
+    "id": "ddeb27dc-6574-4538-979b-b525f3e56ad3",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Aprendendo a Aprender",
+    "status": "disponivel",
+    "id": "3efd9bc2-ae6b-46f1-a071-438e616dedf6",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "A história Sem Fim",
+    "status": "disponivel",
+    "id": "a26ac178-ddfe-46b8-aaab-9bada90a435a",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Circe",
+    "status": "disponivel",
+    "id": "ceb0760f-f513-47d4-938d-64e8b6776e23",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Pêndulo de Foucault",
+    "status": "disponivel",
+    "id": "62e9d350-3122-4f11-afb6-dd240edd2429",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Admirável Mundo Novo",
+    "status": "disponivel",
+    "id": "9cddc9ca-f398-41f7-8501-0dc39e8e2d1e",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "1984",
+    "status": "disponivel",
+    "id": "c6a2006d-ba56-4438-8345-f5b484994243",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Pequeno Príncipe",
+    "status": "disponivel",
+    "id": "2ccc82da-90a8-4249-be90-f22a770588c2",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Um Estudo em Vermelho",
+    "status": "disponivel",
+    "id": "b33e28d1-1c34-4070-95b8-47d607883e32",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Signo dos Quatro",
+    "status": "disponivel",
+    "id": "ba0012b6-b42d-4bf6-928b-8c52c31f3b04",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "As Aventuras de Sherlock Holmes",
+    "status": "disponivel",
+    "id": "651d1ea3-05e4-494c-bcd7-691ee3ddb948",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Memórias de Sherlock Holmes",
+    "status": "disponivel",
+    "id": "4e7e2919-1785-4966-9ee6-ee82e12d08eb",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Cão dos Baskerville",
+    "status": "disponivel",
+    "id": "7f6245b5-95c6-4f99-ab1c-73b77ebf043a",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "A Volta de Sherlock Holmes",
+    "status": "disponivel",
+    "id": "631463d2-4a54-4b69-b44a-b668936106b4",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "O Vale do Medo",
+    "status": "disponivel",
+    "id": "48819520-999e-46ed-9ed8-fc4ea7dc447c",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Os Últimos Casos de Sherlock Holmes",
+    "status": "disponivel",
+    "id": "4c3ca92e-0f1f-4851-9fc0-a4b3e291cbfa",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "A Metamorfose",
+    "status": "disponivel",
+    "id": "14abd75c-2423-49db-b9f1-814357c73bb7",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Os Miseráveis",
+    "status": "disponivel",
+    "id": "ac4327a9-7299-4080-aac5-24e223e41ba3",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Moby Dick",
+    "status": "disponivel",
+    "id": "e40f1dbf-77e4-49cc-8824-4a642aabca4a",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Histórias Extraordinárias",
+    "status": "disponivel",
+    "id": "2dc3d8bb-ee31-404f-a4c3-2f5977533139",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "As Viagens de Gulliver",
+    "status": "disponivel",
+    "id": "c8fa0049-9b53-4b7e-bed6-4a2d8ee900e4",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "A Cor Que Caiu do Céu",
+    "status": "disponivel",
+    "id": "0a366862-a9b3-4c05-9798-0de3156cd14c",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e a Pedra Filosofal",
+    "status": "disponivel",
+    "id": "4a306529-2099-430b-8fac-96fa5b27fa26",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e a Câmara Secreta",
+    "status": "disponivel",
+    "id": "f2891054-97e6-4dc8-af8b-99cbb963e8fb",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e o Prisioneiro de Azkaban",
+    "status": "disponivel",
+    "id": "cbd7ee25-cce9-4b7c-a73d-03ed6fd814d4",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e o Cálice de Fogo",
+    "status": "disponivel",
+    "id": "52ceb5dc-6fa0-4dc9-ac53-9d2e3e3f6d56",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e a Ordem da Fênix",
+    "status": "disponivel",
+    "id": "2f97c9c6-2932-48f2-97c9-736fafa7ccf8",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e o Enigma do Príncipe",
+    "status": "disponivel",
+    "id": "93431c30-aecd-4b17-a616-a22fccaafe7c",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Harry Potter e as Relíquias da Morte",
+    "status": "disponivel",
+    "id": "775f330c-1318-41d7-b8de-81146b5f3cb3",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Livro das Mil e Uma Noites",
+    "status": "disponivel",
+    "id": "37214eb0-d7de-4053-a60e-70a25f0a8e30",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "As Aventuras de Alice no País das Maravilhas",
+    "status": "disponivel",
+    "id": "4979df58-56e9-42ac-b4ba-42464d46f7ee",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  },
+  {
+    "nome": "Estrangeiro",
+    "status": "disponivel",
+    "id": "8e111563-9a7a-4038-a053-29b3b4859d5a",
+    "categoria": null,
+    "alugadoPor": null,
+    "alugadoDia": null,
+    "devolverDia": null
+  }
+]
